@@ -18,6 +18,7 @@ body {
 	max-width: 960px;
 	margin: auto;
 	clear: both;
+	opacity: .5;
 }
 
 h1, h2, h3, p {
