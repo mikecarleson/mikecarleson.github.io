@@ -16,8 +16,7 @@ body {
   font-family: 'Righteous', cursive;
   font-size: 18px;
   line-height: 34px;
-  color: #777777;
-  background: #E2EFDE;
+  color: #030301;
 }
 
 .main-container {
@@ -34,14 +33,32 @@ body {
   padding-top: 1rem;
   padding-bottom: 2rem;
   font-family: 'Righteous', cursive;  
+  border-bottom: 3px solid #030301;
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.middle-page-header {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  font-family: 'Righteous', cursive;  
   border-bottom: 3px solid white;
   margin-bottom: 3rem;
   display: flex;
   justify-content: center;
 }
 
+.my-title {
+  font-size: 4rem;
+  color: #FF4500 !important;
+}
+
 p {
-  margin: 1rem;
+  display:inline-block;
+  width:70%;
+  vertical-align:middle;
+  padding-left: 5%;
 }
 
 .portfolio {
@@ -52,10 +69,6 @@ p {
 .portfolio-box {
   position: relative;
   display: block;
-}
-
-.portfolio-container {
-  background: white !important;
 }
 
 .row {
@@ -72,7 +85,7 @@ p {
 }
 
 .navbar {
-  background-color: #FFFFF0 !important;
+  background-color: transparent !important;
   box-shadow: #f8f9fa;
   height: 10vh;
   padding-top:10%;
@@ -98,13 +111,48 @@ p {
   background-size: cover;
 }
 
+img {
+    display:inline-block;
+    padding-right:0%;
+    height: 100%;
+    vertical-align: middle;
+    border-radius: 5px;
+
+}
+
+/* .losange, .losange div {
+  margin: 0 auto;
+  transform-origin: 50% 50%;
+  overflow: hidden;
+  width: 250px;
+  height: 250px;
+}
+.losange {
+  transform: rotate(45deg) translateY(10px);
+  
+}
+.losange .los1 {
+  width: 355px;
+  height: 355px;
+  transform: rotate(-45deg) translateY(-74px);
+}
+.losange .los1 img {
+  width: auto;
+  height: 100%;
+} */
+
+
 .first-section {
-  background: #FFFFF0;
+  background: white;
+}
+
+.middle-section {
+  background: #FF4500;
+  color: white;
 }
 
 .last-section {
-  background: #777777;
-  color: #FFFFF0;
+  background: white;
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
