@@ -18,7 +18,6 @@ html,body
     line-height: 34px;
     color: #030301;
     -webkit-overflow-scrolling: touch;
-    scroll-behavior: smooth;
   }
    
 
@@ -184,6 +183,10 @@ img {
     width:90%;
     margin-left: 5%;
     margin-bottom: 5%;
+  }
+
+  .nav-link {
+    color: transparent;
   }
 }
 /* 
