@@ -140,6 +140,10 @@ img {
   background: white;
 }
 
+.footer {
+  margin-top:5vh;
+}
+
 @media (min-width: 481px) and (max-width: 767px) {
   
   body {
