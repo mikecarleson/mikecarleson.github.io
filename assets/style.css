@@ -50,7 +50,7 @@ html,body
 }
 
 .my-title {
-  font-size: 4rem;
+  font-size: 3rem;
   color: #FF4500 !important;
 }
 
@@ -158,6 +158,11 @@ img {
   body {
     left: 0;
     width: 100vw;
+  }
+
+  .port-img {
+    padding: 0;
+    width: 100%;
   }
   
 }
