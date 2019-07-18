@@ -17,7 +17,10 @@ html,body
     font-size: 18px;
     line-height: 34px;
     color: #030301;
-    -webkit-overflow-scrolling: touch;}
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+  }
+   
 
 .main-container {
   background: transparent;
