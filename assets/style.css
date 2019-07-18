@@ -52,6 +52,7 @@ html,body
 .my-title {
   font-size: 3rem;
   color: #FF4500 !important;
+  text-align: center;
 }
 
 p {
@@ -85,18 +86,19 @@ p {
   margin-bottom: 1rem;
 }
 
-.navbar {
-  background-color: white !important;
-  box-shadow: #f8f9fa;
-  height: 10vh;
-  padding-top:10%;
+.nav {
+  background-color: transparent !important;
 }
 
 .nav-link {
-  color: #AFD0BF;
+  color: blue;
 }
 
 .about-me {
+  text-align: center;
+}
+
+.my-title {
   text-align: center;
 }
 
@@ -150,6 +152,11 @@ img {
     left: 0;
     width: 100vw;
   }
+
+  p {
+    width:100%;
+  }
+
   
 }
 
@@ -157,14 +164,24 @@ img {
   
   body {
     left: 0;
-    width: 100vw;
+    width: 100%;
   }
 
   .port-img {
     padding: 0;
     width: 100%;
+    margin:0;
   }
   
+  p {
+    width:100%;
+  }
+
+  .about-img {
+    width:90%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+  }
 }
 /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
