@@ -140,6 +140,10 @@ img {
   background: white;
 }
 
+.footer {
+  height: 2vh !important;
+}
+
 @media (min-width: 481px) and (max-width: 767px) {
   
   body {
