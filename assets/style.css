@@ -185,9 +185,10 @@ img {
     margin-bottom: 5%;
   }
 
-  .nav-link {
-    color: transparent;
+  .nav {
+    display: none;
   }
+
 }
 /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
