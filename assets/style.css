@@ -93,7 +93,7 @@ p {
 }
 
 .nav-link {
-  color: olivedrab;
+  color: olivedrab !important;
 }
 
 .about-me {
