@@ -45,7 +45,7 @@ html,body
   padding-top: 2rem;
   padding-bottom: 2rem;
   font-family: 'Righteous', cursive;  
-  border-bottom: 3px solid white;
+  border-bottom: 3px solid black;
   margin-bottom: 3rem;
   display: flex;
   justify-content: center;
@@ -121,7 +121,7 @@ img {
     padding-right:0%;
     height: 100%;
     vertical-align: middle;
-    border-radius: 5px;
+    /* border-radius: 5px; */
 
 }
 
@@ -136,8 +136,8 @@ img {
 }
 
 .middle-section {
-  background: #FF4500;
-  color: white;
+  background: white;
+  color: black;
 }
 
 .last-section {
@@ -164,6 +164,10 @@ img {
 
   p {
     width:100%;
+  }
+
+  .nav {
+    display: none;
   }
 
   
