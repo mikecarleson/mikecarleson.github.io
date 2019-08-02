@@ -57,7 +57,7 @@ html,body
   text-align: center;
 }
 
-p {
+.about-me-p {
   display:inline-block;
   width:70%;
   vertical-align:middle;
@@ -114,6 +114,7 @@ p {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+  background-attachment: fixed
 }
 
 img {
