@@ -171,6 +171,15 @@ img {
     display: none;
   }
 
+  .masterhead {
+    background: url("./images/portfolio-background.jpg") no-repeat center center fixed; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+  }
+  
+
   
 }
 
@@ -200,6 +209,15 @@ img {
   .nav {
     display: none;
   }
+
+  .masterhead {
+    background: url("./images/portfolio-background.jpg") no-repeat center center fixed; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+  }
+  
 
 }
 /* 
