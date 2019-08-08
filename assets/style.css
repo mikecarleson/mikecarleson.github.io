@@ -53,7 +53,7 @@ html,body
 
 .my-title {
   font-size: 3rem;
-  color: #FF4500 !important;
+  color: black !important;
   text-align: center;
 }
 
@@ -88,12 +88,13 @@ html,body
   margin-bottom: 1rem;
 }
 
-.nav {
+.navbar {
   background-color: transparent !important;
+  padding: 0 15 !important;
 }
 
 .nav-link {
-  color: blue;
+  color: black;
 }
 
 .about-me {
@@ -167,7 +168,7 @@ img {
     width:100%;
   }
 
-  .nav {
+  .navbar {
     display: none;
   }
 
@@ -206,7 +207,7 @@ img {
     margin-bottom: 5%;
   }
 
-  .nav {
+  .navbar {
     display: none;
   }
 
