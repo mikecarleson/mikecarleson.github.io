@@ -106,6 +106,16 @@ html,body
   text-align: center;
 }
 
+.contact-me {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.contact-phrase {
+  margin-bottom: 2rem;
+}
+
+
 .my-title {
   text-align: center;
 }
@@ -169,15 +179,18 @@ img {
 
 .first-section {
   background: white;
+  margin-bottom: 3rem;
 }
 
 .middle-section {
   background: white;
   color: black;
+  margin-bottom: 3rem;
 }
 
 .last-section {
   background: white;
+  margin-bottom: 3rem;
 }
 
 .footer {
