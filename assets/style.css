@@ -53,8 +53,12 @@ html,body
 
 .my-title {
   font-size: 3rem;
-  color: black !important;
+  color: white !important;
   text-align: center;
+}
+
+.sub-title {
+  color: white !important;
 }
 
 .about-me-p {
@@ -110,7 +114,7 @@ html,body
 }
 
 .masterhead {
-  background: url("./images/portfolio-background.jpg") no-repeat center center fixed; 
+  background: url("./images/background2.jpg") no-repeat center center fixed; 
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
