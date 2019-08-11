@@ -14,7 +14,7 @@ html,body
     margin: 0 !important;
     padding: 0 !important;
     width: 100%;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 34px;
     color: #030301;
     -webkit-overflow-scrolling: touch;
@@ -32,18 +32,18 @@ html,body
 }
 
 .page-header {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   font-family: 'Righteous', cursive;  
   border-bottom: 3px solid #030301;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   display: flex;
   justify-content: center;
 }
 
 .middle-page-header {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   font-family: 'Righteous', cursive;  
   border-bottom: 3px solid black;
   margin-bottom: 3rem;
@@ -94,11 +94,12 @@ html,body
 
 .navbar {
   background-color: transparent !important;
+  padding: 0 5 !important;
 }
 
 .nav-link {
   color: black;
-  padding: 0 10 !important;
+  padding: 0 5 !important;
   margin: 0 !important;
 }
 
@@ -108,11 +109,11 @@ html,body
 
 .contact-me {
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .contact-phrase {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 
@@ -258,12 +259,21 @@ img {
     display: none;
   }
 
+  .container .overlay {
+    opacity: .8;
+  }
+
+
   .masterhead {
     background: url("./images/background2.jpg") no-repeat center center fixed; 
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
+  }
+
+  .container .overlay {
+    opacity: .8;
   }
   
 
