@@ -19,7 +19,39 @@ html,body
     color: #030301;
     -webkit-overflow-scrolling: touch;
   }
-   
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: red;
+  border-bottom: none;
+  text-decoration: none !important;
+
+}
+
+.about-to-top:after{
+  content:'About Me';
+}
+.about-to-top:hover:after{
+  content:'Back to Top';
+}
+
+.portfolio-to-top:after{
+  content:'Portfolio';
+}
+.portfolio-to-top:hover:after{
+  content:'Back to Top';
+}
+
+.contact-to-top:after{
+  content:'Contact';
+}
+.contact-to-top:hover:after{
+  content:'Back to Top';
+}
+
 
 .main-container {
   background: transparent;
