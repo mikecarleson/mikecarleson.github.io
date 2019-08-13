@@ -56,11 +56,22 @@ a:hover {
 .main-container {
   background: transparent;
   color: #030301;
-  /* border: 2px; */
   border-color: #f8f9fa;
-  /* margin-top: 7vh; */
   margin-bottom: 7vh;
   
+}
+
+.circle {
+  width: 275px;
+  height: 275px;
+  background: url(./images/newpic.jpg) center;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  float: left;
+  shape-outside: circle();
+  margin: 30px;
 }
 
 .page-header {
