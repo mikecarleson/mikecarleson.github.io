@@ -270,6 +270,36 @@ img {
     background-attachment: scroll;
     background-size: cover;
   }
+
+  .about-to-top:after{
+    content:'About Me';
+  }
+  .about-to-top:hover:after{
+    content:'About Me';
+  }
+  
+  .portfolio-to-top:after{
+    content:'About Me';
+  }
+  .portfolio-to-top:hover:after{
+    content:'About Me';
+  }
+  
+  .contact-to-top:after{
+    content:'About Me';
+  }
+  .contact-to-top:hover:after{
+    content:'About Me';
+  }
+
+  a:hover {
+    color: black;
+    border-bottom: none;
+    text-decoration: none !important;
+  
+  }
+  
+  
   
 
   
@@ -318,6 +348,36 @@ img {
   .container .overlay {
     opacity: .8;
   }
+
+  .about-to-top:after{
+    content:'About Me';
+  }
+  .about-to-top:hover:after{
+    content:'About Me';
+  }
+  
+  .portfolio-to-top:after{
+    content:'About Me';
+  }
+  .portfolio-to-top:hover:after{
+    content:'About Me';
+  }
+  
+  .contact-to-top:after{
+    content:'About Me';
+  }
+  .contact-to-top:hover:after{
+    content:'About Me';
+  }
+
+  a:hover {
+    color: black;
+    border-bottom: none;
+    text-decoration: none !important;
+  
+  }
+
+
   
 
 }
