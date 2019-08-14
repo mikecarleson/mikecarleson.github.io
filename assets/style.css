@@ -137,6 +137,8 @@ a:hover {
 
 .row {
   width: 100%;
+  margin: 0 !important;
+  padding: o !important;
 }
 
 .port-img {
