@@ -390,7 +390,7 @@ width: 120px;/*margin-top: -61px;*/
   .port-img {
     padding: 0;
     width: 100%;
-    margin:0;
+    margin:1vh;
   }
   
   .about-me-p {
@@ -407,11 +407,6 @@ width: 120px;/*margin-top: -61px;*/
     display: none;
   }
 
-  .container .overlay {
-    opacity: .8;
-  }
-
-
   .masterhead {
     background: url("./images/background2.jpg") no-repeat center center fixed; 
     background-position: center;
@@ -421,7 +416,7 @@ width: 120px;/*margin-top: -61px;*/
   }
 
   .container .overlay {
-    opacity: .8;
+    opacity: .5;
   }
 
   .about-to-top:after{
