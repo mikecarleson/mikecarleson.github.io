@@ -18,6 +18,7 @@ html,body
     line-height: 34px;
     color: #030301;
     -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
   }
 
 a {
