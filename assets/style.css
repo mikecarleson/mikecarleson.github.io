@@ -145,9 +145,19 @@ a:hover {
 .port-img {
   padding: .5vh;
   width: 33.3%;
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+
   /* margin: 1vh; */
 }
 
+.port-img img {
+  transition: transform .5s, filter 1s ease-in-out;
+  filter: grayscale(100%);
+}
+.port-img:hover img {
+  filter: grayscale(0);
+  transform: scale(1.1);
+}
 .btn {
   margin-bottom: 1rem;
 }
@@ -294,11 +304,12 @@ img {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: black;
+  background-color: transparent;
+  color: white;
 }
 
 .container:hover .overlay {
-  opacity: .85;
+  opacity: 1;
 }
 
 .text {
