@@ -435,9 +435,10 @@ width: 120px;/*margin-top: -61px;*/
     opacity: .5;
   } */
 
-  /* .port-img img {
+  .port-img img {
     filter: none;
-  } */
+    transition: none;
+  }
   
 
   .about-to-top:after{
