@@ -436,7 +436,7 @@ width: 120px;/*margin-top: -61px;*/
   } */
 
   .port-img img {
-    filter: grayscale(100%);
+    filter: none;
     transition: none;
   }
   
