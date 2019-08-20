@@ -431,9 +431,14 @@ width: 120px;/*margin-top: -61px;*/
     background-size: cover;
   }
 
-  .container .overlay {
+  /* .container .overlay {
     opacity: .5;
-  }
+  } */
+
+  /* .port-img img {
+    filter: none;
+  } */
+  
 
   .about-to-top:after{
     content:'About Me';
