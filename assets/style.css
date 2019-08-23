@@ -469,6 +469,7 @@ width: 120px;/*margin-top: -61px;*/
   body {
     left: 0;
     width: 100%;
+    background-color: transparent;
   }
 
   .port-img {
@@ -540,6 +541,10 @@ width: 120px;/*margin-top: -61px;*/
 
   .circle {
     float: none;
+  }
+
+  .first-section {
+    z-index: 10 !important;
   }
 
 
