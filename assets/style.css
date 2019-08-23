@@ -43,9 +43,11 @@ h4 {
 }
 
 a:hover {
-  color: red;
-  border-bottom: none;
-  text-decoration: none !important;
+  color: black;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  text-decoration: none;
 
 }
 
@@ -346,10 +348,10 @@ text-align: center;
 }
 
 .box >.box-icon {
-  border: 2px solid #40b4aa;
+  border: 2px solid #82b440;
 }
 .box-icon {
-background-color: #40b4aa;
+background-color: #82b440;
 border-radius: 50%;
 display: table;
 height: 120px;
