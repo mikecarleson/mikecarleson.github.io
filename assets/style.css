@@ -313,6 +313,7 @@ img {
   background:  transparent;
   margin-bottom: 3rem;
   z-index: 100 !important;
+  transform: translate3d(0,0,0);
 }
 
 .middle-section {
@@ -545,6 +546,7 @@ width: 120px;/*margin-top: -61px;*/
 
   .first-section {
     z-index: 10 !important;
+    transform: translate3d(0,0,0);
   }
 
 
