@@ -38,12 +38,7 @@ html,body
     top: 0;
     width: 100%;
     height: 100%;
-    z-index: -10;
-    background: url(photos/2452.jpg) no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    z-index: -100;
   }
 
   p {
@@ -314,6 +309,7 @@ img {
 .first-section {
   background:  transparent;
   margin-bottom: 3rem;
+  z-index: 100;
 }
 
 .middle-section {
@@ -423,14 +419,6 @@ width: 120px;/*margin-top: -61px;*/
     display: none;
   }
 
-  .masterhead {
-    background: url("./images/background2.jpg") no-repeat center center fixed; 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
-  }
-
   .about-to-top:after{
     content:'ABOUT ME';
   }
@@ -500,13 +488,6 @@ width: 120px;/*margin-top: -61px;*/
     display: none;
   }
 
-  .masterhead {
-    background: url("./images/background2.jpg") no-repeat center center fixed; 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
-  }
 
   /* .container .overlay {
     opacity: .5;
