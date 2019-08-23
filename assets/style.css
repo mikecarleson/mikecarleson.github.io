@@ -43,7 +43,7 @@ h4 {
 }
 
 a:hover {
-  color: #82b440;
+  color: red;
   border-bottom: none;
   text-decoration: none !important;
 
@@ -122,11 +122,35 @@ a:hover {
   justify-content: center;
 }
 
-.my-title {
-  font-size: 3rem;
-  color: white !important;
-  text-align: center;
+@font-face {
+  font-family: 'neon';
+  src: url(./HELLODENVERDISPLAYREGULAR_v1.6.otf);
 }
+
+.my-title {
+  font-size: 4rem;
+  text-align: center;
+  font-family: "neon";
+  color: #fff;
+  text-shadow: 
+  .1vw 0vw .25vw #ffd8d8, .2vw 0vw .25vw #ffd8d8, .4vw 0vw .25vw #ffd8d8, 
+  .1vw 0vw   0vw #f25757, .2vw 0vw   0vw #f25757, .4vw 0vw   0vw #f25757,
+  .1vw 0vw  .1vw #f25757, .2vw 0vw  .1vw #f25757, .4vw 0vw  .1vw #f25757,
+  .1vw 0vw   2vw #f25757, .2vw 0vw   2vw #f25757, .4vw 0vw   2vw #f25757, 
+  .1vw 0vw   1vw #e50b0b, .2vw 0vw   1vw #e50b0b, .4vw 0vw   5vw #e50b0b, 
+  .1vw 0vw   5vw #e50b0b, .2vw 0vw  20vw #e50b0b, .4vw 0vw  10vw #e50b0b,
+  .1vw 0vw  10vw #e50b0b, .2vw 0vw  30vw #e50b0b, .4vw 0vw  10vw #e50b0b;
+  -webkit-animation: buzz 0.05s infinite alternate;
+          animation: buzz 0.05s infinite alternate;
+}
+
+@-webkit-keyframes buzz {
+  70% {
+    opacity: 0.8;
+  }
+}
+ 
+
 
 .sub-title {
   color: white !important;
@@ -171,6 +195,7 @@ a:hover {
 .port-img:hover img {
   filter: grayscale(0);
   transform: scale(1.1);
+  
 }
 .btn {
   margin-bottom: 1rem;
@@ -198,11 +223,6 @@ a:hover {
 
 .contact-phrase {
   margin-bottom: 1rem;
-}
-
-
-.my-title {
-  text-align: center;
 }
 
 .about-me-text {
@@ -326,10 +346,10 @@ text-align: center;
 }
 
 .box >.box-icon {
-  border: 2px solid #82b440;
+  border: 2px solid #40b4aa;
 }
 .box-icon {
-background-color: #82b440;
+background-color: #40b4aa;
 border-radius: 50%;
 display: table;
 height: 120px;
