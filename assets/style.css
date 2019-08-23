@@ -157,6 +157,10 @@ a:hover {
   justify-content: center;
 }
 
+.bring-top {
+  transform: translate3d(0,0,0);
+}
+
 @font-face {
   font-family: 'neon';
   src: url(./HELLODENVERDISPLAYREGULAR_v1.6.otf);
