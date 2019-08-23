@@ -348,10 +348,10 @@ text-align: center;
 }
 
 .box >.box-icon {
-  border: 2px solid #82b440;
+  border: 2px solid #5a5c51;
 }
 .box-icon {
-background-color: #82b440;
+background-color: #5a5c51;
 border-radius: 50%;
 display: table;
 height: 120px;
