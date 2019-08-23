@@ -135,8 +135,8 @@ a:hover {
   float: left;
   shape-outside: circle();
   margin: 30px;
+  opacity: 0.75;
 }
-
 
 
 .page-header {
