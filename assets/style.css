@@ -70,19 +70,8 @@ h4 {
 }
 
 a:hover {
-  color: #fff;
-  text-shadow: 
-  .1vw 0vw .25vw #ffd8d8, .2vw 0vw .25vw #ffd8d8, .4vw 0vw .25vw #ffd8d8, 
-  .1vw 0vw   0vw #f25757, .2vw 0vw   0vw #f25757, .4vw 0vw   0vw #f25757,
-  .1vw 0vw  .1vw #f25757, .2vw 0vw  .1vw #f25757, .4vw 0vw  .1vw #f25757,
-  .1vw 0vw   2vw #f25757, .2vw 0vw   2vw #f25757, .4vw 0vw   2vw #f25757, 
-  .1vw 0vw   1vw #e50b0b, .2vw 0vw   1vw #e50b0b, .4vw 0vw   5vw #e50b0b, 
-  .1vw 0vw   5vw #e50b0b, .2vw 0vw  20vw #e50b0b, .4vw 0vw  10vw #e50b0b,
-  .1vw 0vw  10vw #e50b0b, .2vw 0vw  30vw #e50b0b, .4vw 0vw  10vw #e50b0b;
-  -webkit-animation: buzz 0.05s infinite alternate;
-          animation: buzz 0.05s infinite alternate;
-  text-decoration: none;
-  
+  color: #fff;  
+    text-decoration: none;
 
 }
 
@@ -236,10 +225,31 @@ a:hover {
 
 .nav-link {
   color: white !important;
-  font-family: 'Righteous', cursive !important;  
+  font-family: "neon" !important;
   padding: 0 5 !important;
   margin: 0 !important;
   text-decoration: none !important;
+
+}
+
+.nav-link:hover {
+  color: white !important;
+  font-family: "neon" !important;  
+  padding: 0 5 !important;
+  margin: 0 !important;
+  text-decoration: none !important;
+  text-shadow: 
+  .1vw 0vw .25vw #ffd8d8, .2vw 0vw .25vw #ffd8d8, .4vw 0vw .25vw #ffd8d8, 
+  .1vw 0vw   0vw #f25757, .2vw 0vw   0vw #f25757, .4vw 0vw   0vw #f25757,
+  .1vw 0vw  .1vw #f25757, .2vw 0vw  .1vw #f25757, .4vw 0vw  .1vw #f25757,
+  .1vw 0vw   2vw #f25757, .2vw 0vw   2vw #f25757, .4vw 0vw   2vw #f25757, 
+  .1vw 0vw   1vw #e50b0b, .2vw 0vw   1vw #e50b0b, .4vw 0vw   5vw #e50b0b, 
+  .1vw 0vw   5vw #e50b0b, .2vw 0vw  20vw #e50b0b, .4vw 0vw  10vw #e50b0b,
+  .1vw 0vw  10vw #e50b0b, .2vw 0vw  30vw #e50b0b, .4vw 0vw  10vw #e50b0b;
+  -webkit-animation: buzz 0.05s infinite alternate;
+          animation: buzz 0.05s infinite alternate;
+
+
 }
 
 .about-me {
